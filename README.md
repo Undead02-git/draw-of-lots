@@ -6,6 +6,17 @@ Developed specifically for the **4th P.N. Mathur National Moot Court Competition
 
 ---
 
+## 📥 Download & Install (For Non-Technical Users)
+
+You do **not** need to install any coding tools to use this app. Just follow these steps:
+
+1.  **Go to the [Latest Releases](https://github.com/Undead02-git/draw-of-lots/releases) page.**
+2.  Download the file named **`Draw of Lots Setup 0.1.0.exe`**.
+3.  Double-click the downloaded file to install the application on your Windows PC.
+4.  Once installed, you can launch "Draw of Lots" from your Desktop or Start Menu.
+
+---
+
 ## 🎯 The Vision & Objective
 
 Conducting a "Draw of Lots" for a Moot Court competition is more than just a procedural step—it's the foundation of fairness and competitive integrity. Traditionally, manual draws are prone to human error, resulting in repeat matchups or awkward role assignments that can compromise the spirit of the competition. **Draw of Lots - Moot Court Edition** was born from a need to replace paper slips and spreadsheets with a robust, automated engine that guarantees precision. By intelligently managing side-swapping (Petitioners to Respondents) and ensuring no team faces the same opponent twice, this app eliminates the "luck of the draw" from technical logistics. Beyond its logic, the built-in reveal animations bring a high-stakes, professional "Grand Slam" atmosphere to the live draw, ensuring that the only thing participants need to focus on is their oral advocacy.
