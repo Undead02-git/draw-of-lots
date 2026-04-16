@@ -55,7 +55,7 @@ If you want to run this from the source code or build your own version:
 ### Setup
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/your-username/draw-of-lots.git
+    git clone https://github.com/Undead02-git/draw-of-lots.git
     cd draw-of-lots
     ```
 2.  Install dependencies:
@@ -78,6 +78,25 @@ To create a standalone Windows installer:
     npm run dist
     ```
 The installer will be generated in the `dist` folder.
+
+---
+
+## 📅 Changelog
+
+### v1.0.0
+*   Initial release for the 4th P.N. Mathur National Moot Court Competition.
+*   Support for Round 1 and Round 2 automated pairings.
+*   Implemented side-swapping and opponent-repetition constraints.
+*   Added live reveal animations and Excel import/export functionality.
+*   Desktop (Electron) and Web (Next.js) compatibility.
+
+---
+
+## ⚠️ Known Issues & Limitations
+
+*   **Round 2 Logic Conflict:** In very rare cases with a small number of teams (e.g., 4 teams), the mathematical constraints (swapping sides AND no repeat opponents) may lead to a dead-end where no valid pairing exists. If this happens, simply click "Redo Round 1" to get a new seed.
+*   **Even Number Required:** The app currently only supports an even number of teams. Odd-numbered team rosters will be rejected at upload.
+*   **Header Sensitivity:** The Excel file must contain a column named exactly `Team Codes` in the first sheet.
 
 ---
 
